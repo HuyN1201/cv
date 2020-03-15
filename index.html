@@ -1,0 +1,141 @@
+<!-- HTML BOILER PLATE -->
+<!-- We used the emmet plugin code to display boiler plate; " html + enter " -->
+<!-- Declaring the document type -->
+<!DOCTYPE html>
+<!-- html tag -->
+<html lang="en" dir="ltr">
+
+<head>
+
+  <!-- META -->
+  <!-- Meta element, give extra meta data to your html document -->
+  <!-- tells that all the text will be encoded with utf-8 -->
+  <!-- this is the standard encoding! Includes all international symbols :) -->
+  <!-- you can add different meta tags like a description so a search engine can look for that specific text -->
+  <meta charset="utf-8">
+  <title>Huy's Personal Site</title>
+</head>
+<table cellspacing = "20">
+  <tr>
+
+    <!-- IMAGES -->
+    <!-- We are going to add images -->
+    <!-- To do that, we will use the tag "img"-->
+    <!-- "img" is another Self-Closing tag -->
+    <!-- BUT it needs its own attributes, specifically the source, "src", of the image -->
+    <!-- i.e. .png, .jpg -->
+    <!-- the alt attribute is what search engine looks for when they search an image -->
+    <td><img src ="Huy'sPic.png" width = "200" height = "200" atl="Huy's Profile Picture"></td>
+    <td>
+      <h1>Huy Nguyen</h1>
+      <p>
+
+        <!-- EMPHASIS AND STRONG -->
+        <!-- use "em" instead of "i" because em adds emPHASIS on what you put in between them -->
+        <!-- use "strong" tag to bold your words -->
+
+        <!-- HYPERLINKS -->
+        <!-- To add a hyperlink to a text, we will use the " a " tag. -->
+        <!-- " a " is not a Self-Closing tag and requires 3 big elements -->
+        <!-- 1.) A link to your desination. Followed after " href = ____ " -->
+        <!-- 2.) A text that goes inbetween your " a " tag that is use for the user to click on to go to the link -->
+        <!-- 3.) A closing tag! -->
+
+        <!-- "Wichita State University" is encoded with TWO elements to it. strong and a hyperlink! -->
+        <em>Third year college student at <strong> <a href="https://www.wichita.edu/">Wichita State University.</a> </strong></em>
+      </p>
+      <p>
+        Hello! My name is Huy Nguyen and I am excited to really start my development journey!
+      </p>
+    </td>
+  </tr>
+</table>
+<body>
+  <hr>
+  <h3>Education</h3>
+
+  <!-- LISTS -->
+  <!-- ul stands for uNORDER lIST -->
+  <!-- li tag encolses each and every bullet point -->
+  <ul>
+    <li>Washington Elementary</li>
+    <li>Marshall Middle School</li>
+    <li>Wichita North High School</li>
+    <li>Wichita State University</li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+
+    <!-- TABLES -->
+    <!-- We are going to structure our text in a table!! -->
+    <!-- "table" tag to initailize a table -->
+    <!-- "tr" tag to initialize a table row -->
+    <!-- "td" tag to initialize a table data INSIDE the first column of the "tr" that you are in, goes horizontal -->
+    <!-- Declare "thead" tag, table head, so you can place your headings there. -->
+    <!-- "th"  tag to initialize the text as a Heading of your table -->
+    <!-- Declare "tbody" tag, table body, so you can place your body tags there. -->
+    <table cellspacing = "10">
+      <thead>
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><em>2019-Present</em></td>
+          <td>NIAR: Student Assistant</td>
+        </tr>
+        <tr>
+          <td><em>2018-2019</em></td>
+          <td>WSU: Student Outreach Team</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+
+    <h3>Skills</h3>
+    <table border = "1">
+
+      <tbody>
+        <tr>
+          <td>
+
+            <table cellspacing = "10">
+              <tr>
+                <td>C++</td>
+                <td>⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>⭐⭐</td>
+              </tr>
+            </table>
+
+          </td>
+          <td>
+
+            <table cellspacing = "10">
+              <tr>
+                <td>Gym</td>
+                <td>⭐⭐⭐⭐</td>
+              </tr>
+              <tr>
+                <td>Drawing</td>
+                <td>⭐</td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contactme.html">Contact Me</a>
+  <a href="inputs.html">My Inputs Example</a>
+</body>
+
+</html>
